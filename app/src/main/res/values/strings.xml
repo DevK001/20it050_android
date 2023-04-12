@@ -1,0 +1,182 @@
+<resources>
+
+
+
+    <!--Flight Activity-->
+    <string name="activity_flight_toolbar_title">Add a Flight</string>
+    <string name="activity_flight_toolbar_title_by_route">Add a Flight by Route</string>
+    <string name="activity_flight_toolbar_title_by_number">Add a Flight by Number</string>
+    <string name="activity_flight_query_airport_airline">Airport or Airline&#8230;</string>
+    <string name="activity_flight_by_route_origin">Origin</string>
+    <string name="activity_flight_by_route_destination">Destination</string>
+    <string name="activity_flight_date">Date</string>
+    <string name="activity_flight_by_flight_number_airline">Airline</string>
+    <string name="activity_flight_by_flight_number_number">Flight #</string>
+    <string name="activity_flight_new_trip_name">New Trip</string>
+    <string name="activity_flight_new_trip_name_2">Trip to</string>
+
+        <!--Airport Airline Search Fragment-->
+        <string name="airport_airline_recents">Recents</string>
+        <string name="airport_airline_search_airports_airlines">Search for Airports or Airlines above</string>
+        <string name="airport_airline_search_airports">Search for Airports above</string>
+        <string name="airport_airline_search_airlines">Search for Airlines above</string>
+        <string name="airport_airline_searching">Searching for flights&#8230;</string>
+
+        <!--Number Select Fragment-->
+        <string name="fragment_number_select_title">Flight #</string>
+
+
+
+    <!--Trip Detail activity-->
+    <string name="activity_trip_detail_no_items">No flights in this trip</string>
+
+    <string name="activity_trip_detail_share">Share trip</string>
+    <string name="activity_trip_detail_edit">Edit flights</string>
+    <string name="activity_trip_detail_change_image">Change image</string>
+    <string name="activity_trip_detail_change_name">Change trip name</string>
+    <string name="activity_trip_detail_delete">Delete trip</string>
+    <string name="activity_trip_header_error_departure_before_arrival">Next flight\'s departure occurs before previous flight\'s arrival</string>
+    <string name="activity_trip_header_error_different_origin_destination">Next flight\'s origin does not match previous flight\'s destination</string>
+
+    <string name="menu_trip_detail_edit_cancel">Cancel edit mode</string>
+
+        <!--Edit trip name Dialog-->
+        <string name="dialog_edit_trip_name_title">Edit Trip name</string>
+        <string name="dialog_edit_trip_name_title_hint">Trip name&#8230;</string>
+        <string name="dialog_edit_trip_name_title_empty">Please enter a valid name</string>
+
+        <!--Discard edit trip changes dialog-->
+        <string name="dialog_trip_detail_activity_delete_trip_title">Delete trip</string>
+        <string name="dialog_trip_detail_activity_delete_trip_message">Are you sure you want to delete the trip?</string>
+
+        <!--List item flight-->
+        <string name="list_item_flight_depart">Depart</string>
+        <string name="list_item_flight_arrive">Arrive</string>
+        <string name="list_item_flight_terminal">Terminal</string>
+        <string name="list_item_flight_header_add_flight_here">Add a flight here</string>
+
+        <!--Flight context dialog-->
+        <string name="activity_trip_detail_flight_context_edit">Edit</string>
+        <string name="activity_trip_detail_flight_context_delete">Delete</string>
+
+        <!--Delete flight dialog-->
+        <string name="activity_trip_detail_delete_flight_title">Delete flight</string>
+        <string name="activity_trip_detail_delete_flight_message">Are you sure you want to delete this flight?</string>
+
+
+    <!--Home activity-->
+    <string name="activity_home_search_hint">Search&#8230;</string>
+    <string name="activity_home_trip_item_current">Current</string>
+    <string name="activity_home_trip_item_upcoming">Upcoming</string>
+    <string name="activity_home_trip_item_past">Past</string>
+    <string name="activity_home_trip_item_invalid_info">No Info</string>
+    <string name="activity_home_trip_item_current_info">Ends %1$s</string>          //Ends October 10
+    <string name="activity_home_trip_item_upcoming_info">Starts %1$s</string>       //Starts October 10
+    <string name="activity_home_trip_item_past_info">%1$s - %2$s</string>           //August 2016 - September 2016
+
+
+    <string name="activity_home_dialog_delete_trip_title">Delete trip</string>
+    <string name="activity_home_dialog_delete_trip_message">Are you sure you want to delete \'%1$s\'?</string>
+
+    <string name="activity_trip_list_no_items_title">Welcome to PlaneTracker</string>
+    <string name="activity_trip_list_no_items_subtitle">Add a trip by clicking the + button</string>
+
+    <string name="activity_home_menu_search">Search</string>
+    <string name="activity_home_menu_settings">Settings</string>
+    <string name="activity_home_menu_about">About</string>
+    <string name="activity_home_menu_list_item_delete">Delete</string>
+    <string name="activity_home_menu_list_item_change_image">Change image</string>
+
+
+
+
+    <!--ChangeImage activity-->
+    <string name="activity_change_image_title">Image for \'%1$s\'</string>
+    <string name="activity_change_image_no_items">No images found</string>
+    <string name="activity_change_image_menu_edit">Edit search</string>
+
+        <!--Edit Image Search Query Dialog-->
+        <string name="dialog_edit_image_search_query_title">Edit search query</string>
+        <string name="dialog_edit_image_search_query_hint">Search keywords&#8230;</string>
+        <string name="dialog_edit_image_search_query_empty_query">Please enter a valid search query</string>
+
+
+
+
+    <!-- About Activity -->
+    <string name="activity_about_toolbar_title">About</string>
+    <string name="activity_about_version">Version %1$s</string>
+    <string name="activity_about_author" translatable="false">Alejandro Bicelis %1$d</string>
+    <string name="activity_about_market_link">Rate app</string>
+    <string name="activity_about_github_link">View GitHub Project</string>
+    <string name="activity_about_website_link" translatable="false">www.alejandrobicelis.com.ve</string>
+    <!-- Links -->
+    <string name="url_market" translatable="false">market://details?id=ve.com.abicelis.planetracker</string>
+    <string name="url_github" translatable="false">github.com/abicelis/</string>
+    <string name="url_website" translatable="false">www.alejandrobicelis.com.ve</string>
+    <string name="address_email" translatable="false">alejandro@alejandrobicelis.com.ve</string>
+
+
+
+
+
+
+
+    <!--MESSAGES-->
+    <string name="error_unexpected">Unexpected error, please report this error</string>
+    <string name="error_loading_trips">Sorry, could not load trips</string>
+    <string name="error_loading_trip">Sorry, could not load trip</string>
+    <string name="success_trip_deleted">Trip successfully deleted</string>
+    <string name="info_loading_trips">Refreshing trips</string>
+    <string name="error_loading_images">Sorry, could not load images</string>
+    <string name="error_loading_image">Sorry, could not load image</string>
+    <string name="error_saving_image">Sorry, could not save image</string>
+    <string name="success_saving_image">Image saved successfully</string>
+
+    <string name="error_getting_airports_or_airlines">Sorry, could not get airports or airlines</string>
+    <string name="error_getting_airports">Sorry, could not get airports</string>
+    <string name="error_getting_airlines">Sorry, could not get airlines</string>
+    <string name="error_getting_flights">Sorry, could not get flights</string>
+    <string name="notice_no_airports_or_airlines_found">No airports or airlines found</string>
+    <string name="notice_no_airports_found">No airports found</string>
+    <string name="notice_no_airlines_found">No airlines found</string>
+    <string name="notice_no_flights_found">Sorry, no flights found</string>
+    <string name="notice_adding_flight">Adding flight</string>
+    <string name="success_flight_added">Flight added successfully</string>
+    <string name="success_flight_edited">Flight edited successfully</string>
+    <string name="error_adding_flight">Sorry, could not add flight</string>
+    <string name="notice_enter_flight_date">Select a date</string>
+    <string name="notice_long_click_flight">Long-click a Flight to edit it</string>
+    <string name="notice_downloading_airport_airline_data">Downloading Airports and Airlines. Please wait</string>
+    <string name="success_downloading_airport_airline_data">Airports and Airlines downloaded successfully</string>
+
+    <!--FLIGHT VIEW MODEL-->
+    <string name="flight_view_model_layover_format">%1$s layover</string>
+
+    <!--ENUM APP THEME TYPE-->
+    <string name="app_theme_type_light">Light</string>
+    <string name="app_theme_type_dark">Dark</string>
+
+    <!--ENUM TIME FORMAT-->
+    <string name="time_format_24">24h</string>
+    <string name="time_format_12">12h</string>
+
+    <!-- DIALOG -->
+    <string name="dialog_cancel">CANCEL</string>
+    <string name="dialog_search">SEARCH</string>
+    <string name="dialog_done">DONE</string>
+    <string name="dialog_set">SET</string>
+    <string name="dialog_agree">AGREE</string>
+    <string name="dialog_skip">SKIP</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_discard">DISCARD</string>
+    <string name="dialog_delete">DELETE</string>
+    <string name="dialog_save">SAVE</string>
+
+
+    <!--MISC-->
+    <string name="loading">Loading&#8230;</string>
+    <string name="app_name">PlaneTracker</string>
+    <string name="no_image">No Image</string>
+</resources>

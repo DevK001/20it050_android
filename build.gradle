@@ -1,0 +1,53 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()      //For Retrolambda
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'me.tatarka:gradle-retrolambda:3.7.0'     //For Retrolambda
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+        //For Room
+        maven {
+            url 'https://maven.google.com'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Centralized place for dependency versions.
+// Dependencies used in app/build.gradle
+ext {
+    daggerVersion = '2.11'
+    butterknifeVersion = '8.8.1'
+    timberVersion = '4.5.1'
+    retrofitVersion = '2.3.0'
+    rxJavaVersion = '2.1.3'
+    rxAndroidVersion = '2.0.1'
+    rxBindingVersion = '2.0.0'
+    roomVersion = '1.0.0-alpha9'
+    playServicesVersion = '11.0.4'
+    supportLibVersion = '26.0.0'
+    supportConstraintLibVersion = '1.0.2'
+    picassoVersion = '2.5.2'
+    materialSearchViewVersion = '1.4.0'
+    preferenceFixVersion = '26.0.0.0'
+    materialCalendarVersion = '1.4.3'
+    transitionsEverywhereVersion = '1.7.0'
+    betterPickersVersion = '3.1.0'
+}
